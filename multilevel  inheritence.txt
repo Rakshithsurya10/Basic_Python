@@ -1,0 +1,15 @@
+class india:
+    def show_info(self):
+        print("delhi")
+class telangana:
+    def language(self):
+        print("telugu")
+class tamilnadu:
+    def cm(self):
+        print("vijay thalapathy")
+a=india()
+b=telangana()
+c=tamilnadu()
+c.cm()
+a.show_info()
+b.language()

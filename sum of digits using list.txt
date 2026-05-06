@@ -1,0 +1,3 @@
+a=2026
+b=[int (i) for I in str(a)]
+print(sum(b))

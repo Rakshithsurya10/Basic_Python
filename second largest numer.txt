@@ -1,0 +1,18 @@
+n1=int(input("Enter the value of n1:"))
+n2=int(input("Enter the value of n2:"))
+n3=int(input("Enter the value of n3:"))
+if n1>n2 and n1>n3:
+   if n2>n3:
+     print("Second largest: ",n2)
+   else:
+        print("Second largest: ",n3)
+elif n2>n3 and n2>n1:
+    if n1>n3:
+       print ("Second largest: ",n1)
+    else:
+        print ("Second largest: ",n3)
+else:
+    if n1>n2:
+       print("Second largest: ",n1)
+    else:
+        print("Second largest: ",n2)
